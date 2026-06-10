@@ -1,7 +1,6 @@
 import axios from "axios";
-
 const API =
-  "https://online-compiler-backend-ae1t.onrender.com/api";
+  "https://codearena-backend-kbw2.onrender.com/api";
 
 export const executeCode = async (payload) => {
   const response = await axios.post(
