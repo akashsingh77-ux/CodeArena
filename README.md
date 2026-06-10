@@ -12,6 +12,14 @@ CodeArena is a browser-based online compiler that allows users to write, compile
 * Dark mode
 * Monaco Editor integration
 
+* 🌐 Live Demo
+Frontend (Live Website):
+https://code-arena-wheat.vercel.app/
+
+Backend API
+
+https://codearena-backend-kbw2.onrender.com
+
 ## 💻 Supported Languages
 
 * C++
