@@ -1,26 +1,35 @@
-# 🚀 CodeArena
+# 🚀 CodeArena — Online Code Compiler & Execution Platform
 
-CodeArena is a browser-based online compiler that allows users to write, compile, and execute code directly from the browser.
+CodeArena is a modern **full-stack browser-based online compiler** that enables users to **write, compile, execute, and test code instantly** without installing local environments.
+
+Built with a scalable architecture using **React, Node.js, Express, and Judge0 API**, CodeArena delivers a smooth coding experience with real-time execution, custom input support, and an editor-focused UI.
+
+---
+
+## 🌐 Live Demo
+
+### Frontend
+
+🔗 https://code-arena-wheat.vercel.app/
+
+### Backend API
+
+🔗 https://codearena-backend-kbw2.onrender.com
+
+---
 
 ## ✨ Features
 
-* Execute code instantly
-* Multi-language support
-* Custom input support
-* Real-time output
-* Responsive UI
-* Dark mode
-* Monaco Editor integration
+⚡ Instant code execution
+🧠 Multi-language support
+⌨️ Monaco Editor integration
+📥 Custom input support
+📤 Real-time output rendering
+🌙 Dark mode interface
+📱 Responsive design
+🔄 Full frontend ↔ backend integration
 
-* 🌐 Live Demo
-
-Frontend (Live Website):
-
-https://code-arena-wheat.vercel.app/
-
-Backend API
-
-https://codearena-backend-kbw2.onrender.com
+---
 
 ## 💻 Supported Languages
 
@@ -29,11 +38,13 @@ https://codearena-backend-kbw2.onrender.com
 * JavaScript
 * Python
 
-## 🛠 Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 
-* React
+* React.js
 * Vite
 * Axios
 * Monaco Editor
@@ -43,63 +54,136 @@ https://codearena-backend-kbw2.onrender.com
 * Node.js
 * Express.js
 
-### Execution
+### Code Execution Engine
 
 * Judge0 API
 
-## 🏗 Project Architecture
+### Deployment
 
-Frontend
-↓
-Backend
-↓
+* Frontend → Vercel
+* Backend → Render
+
+---
+
+## 🏗️ System Architecture
+
+```bash id="0spc0l"
+User
+ ↓
+Frontend (React + Monaco)
+ ↓
+Backend (Node + Express)
+ ↓
 Judge0 API
-↓
-Output
+ ↓
+Execution Result
+```
 
-## ⚙ Installation
+---
 
-Clone:
+## ⚙️ Core Functional Highlights
 
-```bash
+### ⚡ Real-Time Execution Pipeline
+
+Code submissions flow from frontend → backend → Judge0 execution engine → live output rendering.
+
+### 🧩 Modular Full-Stack Structure
+
+Frontend and backend are separated into independent deployment layers.
+
+### 🧠 Interactive Code Editor
+
+Monaco Editor provides syntax highlighting and an IDE-like experience.
+
+### 🔄 Dynamic Execution Handling
+
+Supports language switching and custom runtime input processing.
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here.
+
+```md id="5fjlwm"
+![Compiler Dashboard](PASTE_SCREENSHOT_LINK)
+
+![Code Execution](PASTE_SCREENSHOT_LINK)
+
+![Mobile View](PASTE_SCREENSHOT_LINK)
+```
+
+---
+
+## 📂 Project Structure
+
+```bash id="qlg3dm"
+CodeArena/
+│
+├── frontend/
+│   ├── src/
+│   └── package.json
+│
+├── backend/
+│   ├── routes/
+│   ├── controllers/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## 🚀 Installation & Setup
+
+Clone repository:
+
+```bash id="s59rqg"
 git clone https://github.com/akashsingh77-ux/CodeArena.git
+```
+
+Move into project:
+
+```bash id="0eq2mq"
 cd CodeArena
 ```
 
-Backend:
+Backend setup:
 
-```bash
+```bash id="l5ttvj"
 cd backend
 npm install
 npm run dev
 ```
 
-Frontend:
+Frontend setup:
 
-```bash
+```bash id="9fsyht"
 cd frontend
 npm install
 npm run dev
 ```
 
-## 🚀 Deployment
-
-Frontend → Vercel
-Backend → Render
+---
 
 ## 🔮 Future Improvements
 
-* Authentication
-* Save code history
-* Share snippets
-* Theme support
-* AI assistance
+* Authentication & Profiles
+* Save Code History
+* Share Executable Snippets
+* Multiple Editor Themes
+* AI Code Assistant
+* Collaborative Coding
+
+---
 
 ## 👨‍💻 Author
 
-Akash Singh
+**Akash Singh**
 
 GitHub:
 https://github.com/akashsingh77-ux
 
-⭐ Star the repository if you like it.
+---
+
+⭐ If this project helped or inspired you, consider giving it a star.
