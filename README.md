@@ -105,13 +105,7 @@ Supports language switching and custom runtime input processing.
 
 Add screenshots here.
 
-```md id="5fjlwm"
-![Compiler Dashboard](PASTE_SCREENSHOT_LINK)
-
-![Code Execution](PASTE_SCREENSHOT_LINK)
-
-![Mobile View](PASTE_SCREENSHOT_LINK)
-```
+<img width="1905" height="965" alt="Image" src="https://github.com/user-attachments/assets/5a09e5b2-67a3-475b-8380-45ac97b04bc6" />
 
 ---
 
